@@ -1,7 +1,8 @@
 import React from 'react';
 import logo from './logo.png';
-import * as ReactBootStrap from 'react-bootstrap';
 import CartWidget from './CartWidget';
+import * as ReactBootStrap from 'react-bootstrap';
+
 
 function NavBar() {
   return (

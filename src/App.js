@@ -8,10 +8,12 @@ function App() {
   return (
     <div>
      <NavBar />
-     <ItemListContainer greeting={'Haciendo una prop. Acá iría el catálogo.'} />
+     <ItemListContainer />
 
     </div>
   );
 }
+
+
 
 export default App;
