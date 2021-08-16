@@ -1,19 +1,25 @@
-import './App.css';
-import NavBar from './components/NavBarComponent/index.js';
-import ItemListContainer from './components/ItemListContainer.jsx'
+import React from 'react'
+import { Header } from "./components/Header";
+import { Carrito } from "./components/Carrito";
+import {DataProvider} from './context/DataProvider';
+import { BrowserRouter as Router} from "react-router-dom";
+import Pages from "./components/Page.js";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'boxicons';
+import "boxicons";
 
 function App() {
-  return (
-    <div>
-     <NavBar />
-     <ItemListContainer />
 
+  return (
+    <DataProvider>
+    <div className="App">
+      <Router>
+      <Header />
+      <Carrito />
+      <Pages />
+      </Router>
     </div>
+    </DataProvider>
   );
 }
-
-
 
 export default App;

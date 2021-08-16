@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    box-shadow: none !important;
+}
+
+.all{
+    max-width: 1200px;
+    width: 100%;
+    margin: 100px auto;
+    box-shadow: 0 0 5px #ccc !important;
+    background-color: #f4f4f4;
+  }
+  .details{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px 0;
+  }
+  .details .big-img{
+    max-width: 500px;
+    min-width: 290px;
+    overflow: hidden;
+    margin: 25px;
+  }
+  .big-img img{
+    width: 100%;
+    height: 100%;
+    max-height: 400px;
+    display: block;
+    object-fit: cover;
+  }
+  
+  .details .box{
+    max-width: 500px;
+    min-width: 290px;
+    margin: 25px;
+  }
+  .box .fila{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  .box .fila h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    margin-left: 2rem;
+  }
+  .box .fila span{
+    color: crimson;
+    margin-right: 4rem;
+  }
+
+  .box p{
+    line-height: 1.5;
+    margin: 15px 2rem;
+  }
+
+  .box .carta{
+    background: #333;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px 25px;
+    margin: 15px 2rem;
+  }
+
+  hr{
+      width: 95% !important;
+      border:2px solid #000 !important;
+      align-items: center !important;
+      margin: auto !important;
+  }
+  
+  /* ------------- RELACIONADO --------- */
+.relacionados{
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #2e2e2e;
+    max-width: 350px;
+    width: 100%;
+    margin: 5rem auto 2rem auto;
+    padding: .5rem 1rem;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: Helvetica, sans-serif;
+    border-radius: 10px;
+    ;
+}
